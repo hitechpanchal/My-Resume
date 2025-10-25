@@ -1,4 +1,5 @@
-# Instructions for Capstone Project 1 - Online Resume:
+
+## Instructions for Capstone Project 1 - Online Resume:
 ## Project Specifications
     
     1. Create an HTML file named index.html. *
@@ -33,6 +34,7 @@
     11. Publish your website using GitHub pages and share it here (in the Q&A) with other students.
 
     12. Comment and make suggestions to other students' projects.
+
 
 
 
