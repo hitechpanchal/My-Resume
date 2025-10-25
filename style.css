@@ -43,3 +43,8 @@ footer {
   font-size: larger;
   color: darkslategray;
 }
+.box{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
