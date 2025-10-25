@@ -1,0 +1,252 @@
+<!--
+TODO:
+# Instructions for Capstone Project 1 - Online Resume:
+## Project Specifications
+    
+    1. Create an HTML file named index.html. 
+    2. Use the !DOCTYPE html declaration at the beginning of the file to indicate that it's an HTML document.
+    3. Create a head section that includes a title element with the text "My Resume".
+    4. Inside the body section, write HTML code to create an online resume covering the following aspects:
+        - Summary or objective statement
+        - Education (list degrees, schools, and dates)
+        - Work experience (list job titles, employers, dates, and responsibilities)
+        - Skills (list relevant skills or areas of expertise)
+        - Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments)
+    5. Use appropriate HTML tags to format the content of each section, such as h1 for section headings and ul or ol for lists.
+    6. Use HTML tags to add a profile photo of yourself.
+    7. Use relevant anchor tags to create a multi-page website, listing other aspects of your resume such as Hobbies and Contact details.
+    8. Add a footer element with your name and any copyright information or other disclaimers. (Hint: use the MDN docs for things you don't know how to do: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+    9. Save the index.html file and open it in a web browser to ensure that it displays correctly.
+    10. Add your website to your GitHub to start building your portfolio.
+    11. Publish your website using GitHub pages and share it here (in the Q&A) with other students.
+    12. Comment and make suggestions to other students' projects.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Project</title>
+  </head>
+  <style>
+    h1 {
+      display: block;
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+      color: darkslategray;
+      text-transform: uppercase;
+    }
+    h2 {
+      display: block;
+      color: #007adf;
+    }
+    h3 {
+      display: block;
+      color: darkslategray;
+    }
+    p {
+      display: block;
+      text-indent: none;
+      margin: auto 5%;
+    }
+    footer {
+        color: whitesmoke;
+      text-align: center;
+      padding: 10px;
+      background-color: darkslategrey;
+    }
+
+    .bdy {
+      display: block;
+      font-family: sans-serif;
+      font-size: 96%;
+      text-align: left;
+    }
+    .addr {
+      text-align: right;
+      color: slategray;
+    }
+    .lrg {
+      font-size: larger;
+      color: darkslategray;
+    }
+  </style>
+  <body class="bdy">
+    <h1>Resume</h1>
+
+    <div class="addr">
+      <p>
+        <img
+          src="./assets/profpicres.jpg"
+          border="2px"
+          width="118"
+          alt="candidate's picture"
+        /><br />
+        <span class="lrg">Hitesh Panchal</span><br />
+        Plot # 128, Maitry, RSC-13, Sec-8, <br />Charkop,
+        Kandivali-West,Mumbai-64. <br />
+        <a href="mailto:askme@ifyouknowme.com">mail me</a> <br />
+        98211434343 <br />
+        D.O.B : 9<sup>th</sup>Nov,1970.
+      </p>
+    </div>
+    <hr />
+    <h2>Objective</h2>
+    <p>To be a part of the solution and not the problem.</p>
+
+    <h2>Experience</h2>
+    <p>
+      I have been the proprietor of Reboot Technologic since December 1993. We
+      deal in computers, networking & communication products. We also provide
+      technological solutions for our customers. <br />Our customers are from
+      various professions viz. Hotels, Architects, CAs, Small and Medium
+      Industries, Hospitals, SOHO, Service industries.
+    </p>
+
+    <h2>Employment history</h2>
+    <h3>Running my own business. (1993-till date)</h3>
+    <ul>
+      <li>Engaged in Customer Support for Computers and Office automations.</li>
+      <li>Selling, Installation, maintenance of Computers.</li>
+      <li>
+        Proficient in installation of
+        Servers/Desktops/Laptops/Printers/Scanners.
+      </li>
+      <li>
+        Hands on experience on Microsoft operating system from DOS to Windows 11
+        and Server OSes.
+      </li>
+      <li>
+        Basic installation of Microsoft Servers and configuring Domains and
+        attaching the clients to servers. Providing basic securities to the
+        users.
+      </li>
+      <li>
+        Knowledge of VMWare Workstations and Virtual Box to simulate a testing
+        environment for servers, before implementation on client site.
+      </li>
+      <li>
+        Implementation of CCTV system. I have worked on Hikvision brand and sold
+        and maintained varied products like Analog and IP based CCTV of the
+        mentioned brands for small and medium offices.
+      </li>
+      <li>Understand problem and extract solutions based on client’s need.</li>
+      <li>
+        Installation of software like MSOffice/Tally/Busy/Adobe Creative
+        Suites/Corel/AutoCAD.
+      </li>
+      <li>
+        Have knowledge of Networking and can design small networks involving
+        installation of switches and routers according to client’s need.
+      </li>
+      <li>Basic knowledge of Firewalls.</li>
+      <li>
+        Knowledge of tools like Hiren-Boot CD. Creating Bootable Disks. Disk
+        Imaging products.
+      </li>
+      <li>Network Storages and backup solutions.</li>
+    </ul>
+    <h3>HCL.Ltd (1990-1993)</h3>
+    <ul>
+      <li>
+        Part of Customer Support and worked as CSE in Computer Division. Product
+        handled were HCL desktops.
+      </li>
+      <li>
+        Service and Repairs of Reprographic range of products-Brand Toshiba/HCL.
+      </li>
+      <li>
+        Worked as a Chip-Level–Test and Repair Centre engineer, on Communication
+        products like EPABX/FAX/Telex.
+      </li>
+    </ul>
+
+    <h2>Education Summary</h2>
+    <h3>Technological Education</h3>
+    <ul>
+      <li>
+        Diploma in Computers from VJTI-Mumbai, as a part of training program
+        developed by HCL. Ltd.
+      </li>
+      <li>Cleared CCIE written exam held by CISCO. with 97%.</li>
+      <li>C programming from Rajesh Patkar’s Institute.</li>
+      <li>Completed Python from Harvard’s CS50 course.</li>
+    </ul>
+    <h3>Formal Education</h3>
+    <ul>
+      <li>HSCE from Mumbai with 50% aggregate marks with science</li>
+    </ul>
+
+    <h3>Software Proficiency</h3>
+    <ul>
+      <li>
+        <b>Office Documents</b> - Microsoft-Word/Excel, Acrobat Pro, Nitro PDF,
+        VeryPDF,
+      </li>
+      <li>
+        <b>Graphics</b> – Photoshop (Intermediate), Illustrator
+        (Operational-Beginner), AutoCAD
+      </li>
+      <li>
+        <b>Book restoration</b> – Abbyy, Calibre, Sigil. Creating ePUBS and
+        restoration of old PDF books into ePUBs, Mobi, Kindle formats.
+      </li>
+      <li><b>Markups</b>-Basic HTML/CSS (for eBooks), Markdown.</li>
+      <li><b>Programming</b>- Python, RegEx (for eBooks)</li>
+    </ul>
+
+    <h3>System Software</h3>
+    <ul>
+      <li>
+        <b>Microsoft</b> – Desktop Operating System (Power user), Microsoft
+        Server OS (Installation,Configuration,Deployment ).
+      </li>
+      <li><b>Linux</b> – Ubuntu, CentOS, Mint.</li>
+      <li><b>Virtual Machines</b> – VMWare, Oracle VirtualBox.</li>
+      <li><b>Security</b> – Kaspersky Labs (Power User), Sonicwall,</li>
+    </ul>
+
+    <h2>Soft Skills</h2>
+    <ul>
+      <li>
+        Being in customer service for many years, I have been able to develop a
+        good rapport with vendors and my clients and have a good communication
+        skill.
+      </li>
+      <li>Understanding needs of customers and finding right solution.</li>
+      <li>
+        Device out-of-box solution for clients who cannot afford costly
+        solutions e.g., Backups.
+      </li>
+      <li>Problem-Solving</li>
+      <li>
+        Have a good interpersonal skill, as I had been working with subordinates
+        and colleagues both in corporate and small office environment.
+      </li>
+    </ul>
+
+    <h2>Interests</h2>
+    <ul>
+      <li>Computers and Software are my key areas of interests</li>
+      <li>
+        Photoshop (Intermediate Level) as a Hobby. Colorizing Black & White
+        Pics, Compositing, Creating Book covers.
+      </li>
+      <li>
+        Spend my free time learning about technology, improving myself one step
+        at a time. (Currently learning Python)
+      </li>
+      <li>
+        Restoration of books and converting them to ePUBS, mobi and Kindle
+        formats.
+      </li>
+      <li>Reading Books (Fictions/Non-Fictions/Technical)</li>
+    </ul>
+    <h2>References</h2>
+    <p>
+      It’s been a long time I have been, that I have worked for anyone. But can
+      provide references of my Vendors/Clients/Colleagues if required.
+    </p>
+    <footer><p>@hitechpanchal, 2025.</p></footer>
+  </body>
+</html>
