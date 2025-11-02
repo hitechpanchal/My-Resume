@@ -2,20 +2,23 @@
   background-color: #f0ead6;
 }*/
 
+
 h1 {
   display: block;
   text-align: center;
-  color: darkslategray;
+  color:whitesmoke;
+  font-weight: normal;
   text-transform: uppercase;
-  font-family: "Playfair", serif;
+   font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-weight: 400;
+  font-variation-settings: "wdth" 100, 'wght' 200;
+  border-bottom: whitesmoke solid 2px;
+  letter-spacing: 2px;
 }
 h2 {
   display: block;
-  color: #007adf;
+  color: rgb(0, 122, 223);
   font-optical-sizing: auto;
   font-weight: 480;
 }
@@ -63,23 +66,37 @@ footer {
   text-align: left;
   background-size: 100% 100%;
   background-position: 0px 0px;
-  background-image: linear-gradient(
-    133deg,
-    #ffffff 0%,
-    rgb(221, 243, 248) 50%,
-    #ffffff 100%
-  );
+  border: #333 solid 2px;
 }
+
 .addr {
   text-align: right;
-  color: slategray;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 5%;
+  /* background-image: linear-gradient(
+    rgba(250, 235, 215, 0.363) 0% ,
+    rgb(51, 51, 51, 10) 100%
+  ); */
+  
+}
+
+.addr a{
+  color: whitesmoke;
+}
+a:hover{
+  background-color: gold;
+  color: blue;
 }
 .lrg {
   font-size: larger;
-  color: darkslategray;
 }
 .box {
   display: block;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.col{
+  color: rgb(250, 235, 215)
 }
