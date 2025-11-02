@@ -18,13 +18,13 @@ h1 {
 }
 h2 {
   display: block;
-  color: rgb(0, 122, 223);
+  color: rgb(0, 51, 51);
   font-optical-sizing: auto;
   font-weight: 480;
 }
 h3 {
   display: block;
-  color: darkslategray;
+  color: rgb(100, 100, 100);
   font-optical-sizing: auto;
   font-weight: 400;
 }
@@ -50,7 +50,7 @@ footer {
   color: whitesmoke;
   text-align: center;
   padding: 10px;
-  background-color: #333333;
+  background-color: #333;
   font-family: "Courier New", Courier, monospace;
   margin-top: 10%;
 }
@@ -64,8 +64,6 @@ footer {
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  background-size: 100% 100%;
-  background-position: 0px 0px;
   border: #333 solid 2px;
 }
 
@@ -100,5 +98,3 @@ a:hover{
 .col{
   color: rgb(250, 235, 215)
 }
-
-
