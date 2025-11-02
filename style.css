@@ -1,9 +1,9 @@
-#objective{ 
-background-color: rgb(207, 207, 207);
-margin-top: 0;
-margin-bottom: 0;
-padding: 5%;}
-
+#objective {
+  background-color: rgb(207, 207, 207);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5%;
+}
 
 h1 {
   display: block;
@@ -62,7 +62,7 @@ footer {
   display: block;
   display: block;
   color: #010203;
-   background-color: rgb(225, 225, 225);
+  background-color: rgb(225, 225, 225);
   font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -88,6 +88,11 @@ footer {
 a:hover {
   background-color: gold;
   color: blue;
+}
+
+.prof-pic {
+  width: 118px;
+  border: 1px solid whitesmoke;
 }
 .lrg {
   font-size: larger;
