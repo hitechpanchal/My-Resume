@@ -92,6 +92,8 @@ a:hover {
 
 .prof-pic {
   width: 118px;
+  height: auto;
+  max-width: 125px;
   border: 1px solid whitesmoke;
 }
 .lrg {
