@@ -8,14 +8,14 @@
 h1 {
   display: block;
   text-align: center;
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
   font-weight: normal;
   text-transform: uppercase;
   font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: "wdth" 100, "wght" 200;
-  border-bottom: whitesmoke solid 2px;
+  border-bottom: rgb(245, 245, 245) solid 2px;
   letter-spacing: 2px;
 }
 h2 {
@@ -50,7 +50,7 @@ b {
   font-weight: 552;
 }
 footer {
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
   text-align: center;
   padding: 10px;
   background-color: rgb(50, 50, 50);
@@ -74,7 +74,7 @@ footer {
 .addr {
   text-align: right;
   background-color: rgb(50, 50, 50);
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
   padding: 5%;
   /* background-image: linear-gradient(
     rgba(250, 235, 215, 0.363) 0% ,
@@ -83,7 +83,7 @@ footer {
 }
 
 .addr a {
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
 }
 a:hover {
   background-color: gold;
@@ -94,7 +94,7 @@ a:hover {
   width: 118px;
   height: auto;
   max-width: 125px;
-  border: 1px solid whitesmoke;
+  border: 1px solid rgb(245, 245, 245);
 }
 .lrg {
   font-size: larger;
