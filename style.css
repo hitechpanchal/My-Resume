@@ -1,32 +1,35 @@
-/*html {
-  background-color: #f0ead6;
-}*/
+#objective{ 
+background-color: rgb(207, 207, 207);
+margin-top: 0;
+margin-bottom: 0;
+padding: 5%;}
 
 
 h1 {
   display: block;
   text-align: center;
-  color:whitesmoke;
+  color: whitesmoke;
   font-weight: normal;
   text-transform: uppercase;
-   font-family: "Momo Trust Sans", sans-serif;
+  font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-variation-settings: "wdth" 100, 'wght' 200;
+  font-variation-settings: "wdth" 100, "wght" 200;
   border-bottom: whitesmoke solid 2px;
   letter-spacing: 2px;
 }
 h2 {
   display: block;
-  color: rgb(0, 51, 51);
+  color: rgb(50, 50, 50);
   font-optical-sizing: auto;
-  font-weight: 480;
+  font-weight: 525;
+  text-transform: capitalize;
 }
 h3 {
   display: block;
-  color: rgb(100, 100, 100);
+  color: rgb(75, 75, 75);
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 418;
 }
 p {
   display: block;
@@ -50,7 +53,7 @@ footer {
   color: whitesmoke;
   text-align: center;
   padding: 10px;
-  background-color: #333;
+  background-color: rgb(50, 50, 50);
   font-family: "Courier New", Courier, monospace;
   margin-top: 10%;
 }
@@ -59,30 +62,30 @@ footer {
   display: block;
   display: block;
   color: #010203;
+   background-color: rgb(225, 225, 225);
   font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  border: #333 solid 2px;
+  border: rgb(50, 50, 50) solid 2px;
 }
 
 .addr {
   text-align: right;
-  background-color: #333;
+  background-color: rgb(50, 50, 50);
   color: whitesmoke;
   padding: 5%;
   /* background-image: linear-gradient(
     rgba(250, 235, 215, 0.363) 0% ,
     rgb(51, 51, 51, 10) 100%
   ); */
-  
 }
 
-.addr a{
+.addr a {
   color: whitesmoke;
 }
-a:hover{
+a:hover {
   background-color: gold;
   color: blue;
 }
@@ -91,10 +94,12 @@ a:hover{
 }
 .box {
   display: block;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(225, 225, 225);
 }
 
-.col{
-  color: rgb(250, 235, 215)
+.col {
+  color: rgb(250, 235, 215);
 }
