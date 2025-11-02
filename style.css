@@ -13,8 +13,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-variation-settings: "wdth" 100, "wght" 200;
+  font-weight: 200;
   border-bottom: rgb(245, 245, 245) solid 2px;
   letter-spacing: 2px;
 }
@@ -89,7 +88,9 @@ a:hover {
   background-color: gold;
   color: blue;
 }
-
+.bld-xtra{
+  font-weight: 400;
+}
 .prof-pic {
   width: 118px;
   height: auto;
