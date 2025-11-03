@@ -1,5 +1,5 @@
 #objective {
-  background-color: rgb(207, 207, 207);
+  background-color: rgb(200, 200, 200);
   margin-top: 0;
   margin-bottom: 0;
   padding: 5%;
@@ -9,7 +9,7 @@
 h1 {
   display: block;
   text-align: center;
-  color: rgb(245, 245, 245);
+  color: rgb(249, 249, 249);
   font-weight: normal;
   text-transform: uppercase;
   font-family: "Momo Trust Sans", sans-serif;
@@ -133,17 +133,18 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  height: 40px;
-   background-color: goldenrod;
+  height: 60px;
 }
 .nav-list {
   display: flex;
   margin-top: 0;
   justify-content: center;
   font-size: small;
+  align-items: center;
+   background-color: goldenrod;
 }
 .nav-list a {
-  padding: 10px;
+  padding: 5px;
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
