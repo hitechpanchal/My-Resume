@@ -3,6 +3,7 @@
   margin-top: 0;
   margin-bottom: 0;
   padding: 5%;
+  text-align: right;
 }
 
 h1 {
@@ -37,12 +38,18 @@ p {
   font-size: 0.9rem;
   font-weight: 300;
 }
-li {
+ul {
   text-indent: none;
   margin: auto 3%;
   font-size: 0.9rem;
   font-weight: 300;
   list-style-type: square;
+}
+ol li {
+  text-indent: none;
+  margin: auto 3%;
+  font-size: 0.86rem;
+  font-weight: 300;
 }
 b {
   font-optical-sizing: auto;
@@ -56,7 +63,9 @@ footer {
   font-family: "Courier New", Courier, monospace;
   margin-top: 10%;
 }
-
+header {
+  background-color: rgb(50, 50, 50);
+}
 .bdy {
   display: block;
   display: block;
@@ -68,17 +77,18 @@ footer {
   font-style: normal;
   text-align: left;
   border: rgb(50, 50, 50) solid 2px;
+  margin: 0;
 }
 
 .addr {
   text-align: right;
-  background-color: rgb(50, 50, 50);
   color: rgb(245, 245, 245);
   padding: 5%;
   /* background-image: linear-gradient(
     rgba(250, 235, 215, 0.363) 0% ,
     rgb(51, 51, 51, 10) 100%
   ); */
+  margin: 0;
 }
 
 .addr a {
@@ -88,7 +98,7 @@ a:hover {
   background-color: gold;
   color: blue;
 }
-.bld-xtra{
+.bld-xtra {
   font-weight: 400;
 }
 .prof-pic {
@@ -110,4 +120,32 @@ a:hover {
 
 .col {
   color: rgb(250, 235, 215);
+}
+
+.list-reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Navigation Items  */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+   background-color: goldenrod;
+}
+.nav-list {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  font-size: small;
+}
+.nav-list a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: lowercase;
 }
