@@ -124,6 +124,7 @@ a:hover {
   padding: 0;
 }
 /* Navigation Items  */
+
 nav {
   position: fixed;
   top: 0;
@@ -146,3 +147,4 @@ nav {
   font-weight: bold;
   text-transform: lowercase;
 }
+
