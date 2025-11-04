@@ -8,11 +8,10 @@
 
 h1 {
   display: block;
-  text-align: center;
+  text-align: right;
   color: rgb(249, 249, 249);
   font-weight: normal;
   text-transform: uppercase;
-  font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   border-bottom: rgb(245, 245, 245) solid 2px;
@@ -84,10 +83,6 @@ header {
   text-align: right;
   color: rgb(245, 245, 245);
   padding: 5%;
-  /* background-image: linear-gradient(
-    rgba(250, 235, 215, 0.363) 0% ,
-    rgb(51, 51, 51, 10) 100%
-  ); */
   margin: 0;
 }
 
@@ -97,6 +92,7 @@ header {
 a:hover {
   background-color: gold;
   color: blue;
+  text-decoration: none;
 }
 .bld-xtra {
   font-weight: 400;
@@ -105,7 +101,7 @@ a:hover {
   width: 118px;
   height: auto;
   max-width: 125px;
-  border: 1px solid rgb(245, 245, 245);
+  border: 2px solid rgb(245, 245, 245);
 }
 .lrg {
   font-size: larger;
@@ -141,7 +137,7 @@ nav {
   justify-content: center;
   font-size: small;
   align-items: center;
-   background-color: goldenrod;
+  background-color: goldenrod;
 }
 .nav-list a {
   padding: 5px;
