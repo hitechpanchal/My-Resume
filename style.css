@@ -176,20 +176,19 @@ table {
   font-weight: 300;
   width: 100%;
   border-collapse: collapse;
-  border-spacing:0;
+  border-spacing:3px;
 }
 
 tr {
   font-size: 0.86rem;
   vertical-align: middle;
 }
-td{
+td {
   margin-right: 2px;
   margin-left: 1px;
-  text-indent: 0;
+  white-space: nowrap;
 }
-.td-dark{
+.td-dark {
   background-color: rgb(200, 200, 200);
+  
 }
-
-
