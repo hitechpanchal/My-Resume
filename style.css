@@ -176,6 +176,7 @@ table {
   font-weight: 300;
   width: 100%;
   border-collapse: collapse;
+  border-spacing:0;
 }
 
 tr {
@@ -190,4 +191,5 @@ td{
 .td-dark{
   background-color: rgb(200, 200, 200);
 }
+
 
