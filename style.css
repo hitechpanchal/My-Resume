@@ -5,7 +5,7 @@
   padding: 5%;
   text-align: right;
 }
-
+/* Headers */
 h1 {
   display: block;
   text-align: right;
@@ -15,7 +15,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 200;
   border-bottom: rgb(245, 245, 245) solid 2px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 h2 {
   display: block;
@@ -30,6 +30,8 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 418;
 }
+
+/* Paragraphs and lists */
 p {
   display: block;
   text-indent: none;
@@ -54,6 +56,8 @@ b {
   font-optical-sizing: auto;
   font-weight: 552;
 }
+
+/* Header and footer body*/
 footer {
   color: rgb(245, 245, 245);
   text-align: center;
@@ -78,7 +82,7 @@ header {
   border: rgb(50, 50, 50) solid 2px;
   margin: 0;
 }
-
+/* hyperlinks */
 .addr {
   text-align: right;
   color: rgb(245, 245, 245);
@@ -160,6 +164,28 @@ nav {
   border-radius: 5px;
 }
 
-.whitesmk{
+.whitesmk {
   color: whitesmoke;
+}
+
+/* Tables */
+table {
+  text-indent: none;
+  margin: auto 6%;
+  font-size: 0.86rem;
+  font-weight: 300;
+  width: 100%;
+}
+
+tr {
+  font-size: 0.86rem;
+  vertical-align: middle;
+}
+td{
+  margin-right: 2px;
+  margin-left: 1px;
+  text-indent: 0;
+}
+.td-dark{
+  background-color: rgb(200, 200, 200);
 }
