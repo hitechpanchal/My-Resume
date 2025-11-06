@@ -1,11 +1,15 @@
 #objective {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(245, 245, 230);
   margin-top: 0;
   margin-bottom: 0;
-  padding: 5%;
+  padding: 3%;
   text-align: right;
 }
 /* Headers */
+html {
+  box-sizing: border-box;
+  /* border: rgb(50, 50, 50) solid 2px; */
+}
 h1 {
   display: block;
   text-align: right;
@@ -73,13 +77,13 @@ header {
   display: block;
   display: block;
   color: #010203;
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(255, 255, 245);
   font-family: "Momo Trust Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  border: rgb(50, 50, 50) solid 2px;
+
   margin: 0;
 }
 /* hyperlinks */
@@ -115,7 +119,7 @@ a:hover {
   margin-top: 0;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(255, 255, 245);
 }
 
 .col {
@@ -176,7 +180,7 @@ table {
   font-weight: 300;
   width: 100%;
   border-collapse: collapse;
-  border-spacing:3px;
+  border-spacing: 5px;
 }
 
 tr {
@@ -184,11 +188,12 @@ tr {
   vertical-align: middle;
 }
 td {
-  margin-right: 2px;
-  margin-left: 1px;
-  white-space: nowrap;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .td-dark {
-  background-color: rgb(200, 200, 200);
-  
+  background-color: rgb(245, 245, 230);
+  white-space: nowrap;
+  border-right: 2px solid rgb(51, 51, 51, 45%);
+  padding-right: 5px;
 }
