@@ -38,26 +38,25 @@ h3 {
 /* Paragraphs and lists */
 p {
   display: block;
-  text-indent: none;
+  text-indent: 0;
   margin: auto 3%;
   font-size: 0.9rem;
   font-weight: 300;
 }
 ul {
-  text-indent: none;
+  text-indent: n0one;
   margin: auto 3%;
   font-size: 0.9rem;
   font-weight: 300;
   list-style-type: square;
 }
 ol li {
-  text-indent: none;
+  text-indent: 0;
   margin: auto 3%;
   font-size: 0.86rem;
   font-weight: 300;
 }
 b {
-  font-optical-sizing: auto;
   font-weight: 552;
 }
 
@@ -96,7 +95,7 @@ header {
   color: rgb(245, 245, 245);
 }
 a:hover {
-  background-color: #006AFF;
+  background-color: #006aff;
   color: #face18;
   text-decoration: none;
 }
@@ -174,7 +173,7 @@ nav {
 
 /* Tables */
 table {
-  text-indent: none;
+  text-indent: 0;
   margin: auto 6%;
   font-size: 0.86rem;
   font-weight: 300;
@@ -197,7 +196,13 @@ td {
   border-right: 2px solid rgb(51, 51, 51, 45%);
   padding-right: 5px;
 }
+/* .highlight{
+  background-color: #face66;
+  background-color: rgb(245, 245, 230);
+  padding : 3px;
+  border-radius: 5px;
+} */
+
 section .lrg {
   color: #face18;
 }
-
