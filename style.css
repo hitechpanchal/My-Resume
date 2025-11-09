@@ -44,7 +44,7 @@ p {
   font-weight: 300;
 }
 ul {
-  text-indent: n0one;
+  text-indent: 0;
   margin: auto 3%;
   font-size: 0.9rem;
   font-weight: 300;
