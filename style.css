@@ -5,33 +5,34 @@
   padding: 3%;
   text-align: right;
 }
+
 /* Headers */
 html {
   box-sizing: border-box;
   /* border: rgb(50, 50, 50) solid 2px; */
 }
+
 h1 {
   display: block;
   text-align: right;
   color: rgb(245, 245, 245);
   font-weight: normal;
   text-transform: uppercase;
-  font-optical-sizing: auto;
   font-weight: 200;
   border-bottom: rgb(245, 245, 245) solid 2px;
   letter-spacing: 3px;
 }
+
 h2 {
   display: block;
   color: rgb(50, 50, 50);
-  font-optical-sizing: auto;
   font-weight: 525;
   text-transform: capitalize;
 }
+
 h3 {
   display: block;
   color: rgb(75, 75, 75);
-  font-optical-sizing: auto;
   font-weight: 418;
 }
 
@@ -43,6 +44,7 @@ p {
   font-size: 0.9rem;
   font-weight: 300;
 }
+
 ul {
   text-indent: 0;
   margin: auto 3%;
@@ -50,12 +52,14 @@ ul {
   font-weight: 300;
   list-style-type: square;
 }
+
 ol li {
   text-indent: 0;
   margin: auto 3%;
   font-size: 0.86rem;
   font-weight: 300;
 }
+
 b {
   font-weight: 552;
 }
@@ -69,21 +73,23 @@ footer {
   font-family: "Courier New", Courier, monospace;
   margin-top: 10%;
 }
+
 header {
   background-color: rgb(50, 50, 50);
 }
+
 .bdy {
   display: block;
   display: block;
   color: #010203;
   background-color: rgb(255, 255, 245);
   font-family: "Momo Trust Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   text-align: left;
   margin: 0;
 }
+
 /* hyperlinks */
 .addr {
   text-align: right;
@@ -91,26 +97,32 @@ header {
   padding: 5%;
   margin: 0;
 }
+
 .addr a {
   color: rgb(245, 245, 245);
 }
+
 a:hover {
   background-color: #006aff;
   color: #face18;
   text-decoration: none;
 }
+
 .bld-xtra {
   font-weight: 400;
 }
+
 .prof-pic {
   width: 118px;
   height: auto;
   max-width: 125px;
   border: 1px solid #face18;
 }
+
 .lrg {
   font-size: larger;
 }
+
 .box {
   display: block;
   padding-left: 5%;
@@ -130,6 +142,7 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+
 /* Navigation Items  */
 nav {
   position: fixed;
@@ -138,6 +151,7 @@ nav {
   right: 0;
   height: 60px;
 }
+
 .nav-list {
   display: flex;
   margin-top: 0;
@@ -146,6 +160,7 @@ nav {
   align-items: center;
   background-color: #face18;
 }
+
 .nav-list a {
   padding: 5px;
   display: inline-block;
@@ -181,10 +196,12 @@ table {
   border-collapse: collapse;
   border-spacing: 5px;
 }
+
 tr {
   font-size: 0.86rem;
   vertical-align: middle;
 }
+
 td {
   padding-right: 5px;
   padding-left: 5px;
@@ -196,6 +213,7 @@ td {
   border-right: 2px solid rgb(51, 51, 51, 45%);
   padding-right: 5px;
 }
+
 /* .highlight{
   background-color: #face66;
   background-color: rgb(245, 245, 230);
