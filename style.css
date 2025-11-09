@@ -63,7 +63,7 @@ b {
 
 /* Header and footer body*/
 footer {
-  color: rgb(245, 245, 245);
+  color: #face18;
   text-align: center;
   padding: 10px;
   background-color: rgb(50, 50, 50);
@@ -96,8 +96,8 @@ header {
   color: rgb(245, 245, 245);
 }
 a:hover {
-  background-color: gold;
-  color: blue;
+  background-color: #006AFF;
+  color: #face18;
   text-decoration: none;
 }
 .bld-xtra {
@@ -107,7 +107,7 @@ a:hover {
   width: 118px;
   height: auto;
   max-width: 125px;
-  border: 2px solid rgb(245, 245, 245);
+  border: 1px solid #face18;
 }
 .lrg {
   font-size: larger;
@@ -145,7 +145,7 @@ nav {
   justify-content: center;
   font-size: small;
   align-items: center;
-  background-color: goldenrod;
+  background-color: #face18;
 }
 .nav-list a {
   padding: 5px;
@@ -196,4 +196,14 @@ td {
   white-space: nowrap;
   border-right: 2px solid rgb(51, 51, 51, 45%);
   padding-right: 5px;
+}
+/* .highlight{
+  background-color: #face66;
+  background-color: rgb(245, 245, 230);
+  padding : 3px;
+  border-radius: 5px;
+} */
+
+section .lrg {
+  color: #face18;
 }
