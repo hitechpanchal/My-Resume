@@ -6,7 +6,7 @@
   text-align: right;
 }
 
-/* Headers */
+/* General */
 html {
   box-sizing: border-box;
   /* border: rgb(50, 50, 50) solid 2px; */
@@ -28,6 +28,7 @@ h2 {
   color: rgb(50, 50, 50);
   font-weight: 525;
   text-transform: capitalize;
+  padding-top: 60px;
 }
 
 h3 {
@@ -64,20 +65,9 @@ b {
   font-weight: 552;
 }
 
-/* Header and footer body*/
-footer {
-  color: #face18;
-  text-align: center;
-  padding: 10px;
-  background-color: rgb(50, 50, 50);
-  font-family: "Courier New", Courier, monospace;
-  margin-top: 10%;
+.bld-xtra {
+  font-weight: 400;
 }
-
-header {
-  background-color: rgb(50, 50, 50);
-}
-
 .bdy {
   display: block;
   display: block;
@@ -90,6 +80,33 @@ header {
   margin: 0;
 }
 
+/* Header and footer body*/
+footer {
+  color: #face18;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(50, 50, 50);
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10%;
+}
+
+header {
+  /* display: flex;
+  justify-content: right;
+  align-items: center; */
+  background-color: rgb(50, 50, 50);
+}
+
+.prof-pic {
+  width: 118px;
+  height: auto;
+  max-width: 125px;
+  border: 1px solid #face18;
+}
+
+
+
+
 /* hyperlinks */
 .addr {
   text-align: right;
@@ -98,6 +115,7 @@ header {
   margin: 0;
 }
 
+/* Web Links */
 .addr a {
   color: rgb(245, 245, 245);
 }
@@ -108,16 +126,6 @@ a:hover {
   text-decoration: none;
 }
 
-.bld-xtra {
-  font-weight: 400;
-}
-
-.prof-pic {
-  width: 118px;
-  height: auto;
-  max-width: 125px;
-  border: 1px solid #face18;
-}
 
 .lrg {
   font-size: larger;
