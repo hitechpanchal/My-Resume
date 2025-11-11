@@ -2,7 +2,7 @@
 # My-Resume
 This is the first capstone project, while learning 'The Complete Full-Stack Web Development Bootcamp' by Dr. Angela Yu.
 Here is the link to the finished project
-[Profile](https://hitechpanchal.github.io/Profile/){:target="_blank"}
+[Profile](https://hitechpanchal.github.io/Profile/  {:target="_blank"})
 ## Instructions for Capstone Project 1 - Online Resume:
 ## Project Specifications
     
