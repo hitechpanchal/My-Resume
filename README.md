@@ -33,7 +33,7 @@ Here is the link to the finished project
 
     9. Save the index.html file and open it in a web browser to ensure that it displays correctly.
 
-    10.   Add your website to your GitHub to start building your portfolio.
+    10. Add your website to your GitHub to start building your portfolio.
 
     11. Publish your website using GitHub pages and share it here (in the Q&A) with other students.
 
